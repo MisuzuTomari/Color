@@ -20,13 +20,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    .light, .night{
+    .light, .night  {
         text-align: center;
         width: 30%;
         padding: 8%;
         font-family: $mainfont;
         img{
             padding-bottom: 3%;
+            height: 200px;
+          
         }
     }
 }
@@ -36,6 +38,7 @@ body{
         font-family: $mainfont;
         font-size: 250%;
         text-align: center;
+        color: rgb(133, 127, 127);
     }
     .missu, .emily{
         display: flex;
