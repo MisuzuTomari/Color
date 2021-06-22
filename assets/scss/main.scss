@@ -4,8 +4,14 @@
 }
 
 $mainfont: 'Roboto', sans-serif;
-// $maincolor: ;
+$maincolor: #F6F3EE;
 // $subcolor: ;
+
+
+body{
+    background-color: $maincolor;
+}
+
 
 #subscribe{
     font-family: $mainfont;
