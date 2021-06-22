@@ -11,5 +11,19 @@
 </head>
 <body>
 <header>
+<div class="header-left">
+  <img src="./assets/img/logo.png" alt="logo">
+</div>
+<div class="header-right">
+<ul>
+<li><a href="#color">Color</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#sub">sub</a></li>
+</ul>
+
+
+</div>
+
+ 
 
 </header>
