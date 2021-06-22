@@ -2,8 +2,6 @@
 <?php include('mainvisual.php'); ?>
 
 
-
-</header>
 <main>
     <section id="maincvisual">
 
