@@ -20,6 +20,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    .light, .night{
+        text-align: center;
+        width: 30%;
+        padding: 8%;
+        img{
+            padding-bottom: 3%;
+        }
+    }
 }
 
 

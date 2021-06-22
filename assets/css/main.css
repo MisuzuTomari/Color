@@ -22,4 +22,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+#light-night .light, #light-night .night {
+  text-align: center;
+  width: 30%;
+  padding: 8%;
+}
+
+#light-night .light img, #light-night .night img {
+  padding-bottom: 3%;
+}
 /*# sourceMappingURL=main.css.map */
