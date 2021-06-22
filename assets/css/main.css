@@ -8,6 +8,45 @@
   height: 80px;
 }
 
+.header-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  list-style: none;
+  padding-right: 50px;
+}
+
+.header-right li {
+  margin: 20px;
+}
+
+.header-right a {
+  color: #ab8462;
+  text-decoration: none;
+}
+
+#maincvisual {
+  text-align: center;
+}
+
+h1 {
+  color: #504d4a;
+  font-size: 50px;
+}
+
+.brown {
+  color: #50351b;
+  font-size: 30px;
+}
+
+.name {
+  color: #856443;
+  font-size: 20px;
+}
+
 body {
   background-color: #F6F3EE;
 }

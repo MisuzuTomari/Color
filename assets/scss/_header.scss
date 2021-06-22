@@ -1,3 +1,21 @@
 .header-left img{
     height: 80px;
 }
+.header-right{
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        padding-right: 50px;
+        
+    }
+    li{
+        margin: 20px;
+        
+    }
+    a{
+        color: rgb(171, 132, 98);
+        text-decoration: none;
+    }
+    
+}
