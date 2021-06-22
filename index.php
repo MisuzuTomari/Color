@@ -13,9 +13,19 @@
 <header>
 
 </header>
-<section>
+<main>
+    <section id="maincvisual">
 
-</section>
+    </section>
+    <section id="fivecolor">
+
+    </section>
+    <section id="lightnight">
+
+    </section>
+    <section id="about">
+
+    </section>
 
     <section id=subscribe>
         <h1>SUBSCRIBE</h1>
@@ -29,8 +39,9 @@
             </div>
         </form>
     </section>
-    <footer>
+</main>
+<footer>
     <p> &copy; 2021 Colors by Misuzu Tomari, Emily Matsumoto. </p>
-    </footer>
+</footer>
 </body>
 </html>
