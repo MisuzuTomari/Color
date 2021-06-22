@@ -16,21 +16,38 @@ body{
     background-color: $maincolor;
 }
 
+#light-night{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .light, .night{
+        text-align: center;
+        width: 30%;
+        padding: 8%;
+        font-family: $mainfont;
+        img{
+            padding-bottom: 3%;
+        }
+    }
+}
 
-#subscribe{
-    font-family: $mainfont;
-    text-align: center;
-    margin: 10px;
-    div{
+#about{
+    h2{
+        font-family: $mainfont;
+        font-size: 250%;
+        text-align: center;
+    }
+    .missu, .emily{
         display: flex;
         justify-content: center;
-        height: 30px;
-        padding: 10px;
-
-        
+        padding: 8%;
+        .myself{
+            width: 30vw;
+            padding: 6%;
+        }
     }
-    @import"sub";
 }
+
 
 
 @import"footer";
