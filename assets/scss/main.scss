@@ -5,7 +5,11 @@
 
 $mainfont: 'Roboto', sans-serif;
 $maincolor: #F6F3EE;
-// $subcolor: ;
+
+
+@import"header";
+@import"mainvisual";
+
 
 
 body{
@@ -25,5 +29,7 @@ body{
 
         
     }
-
+    @import"sub";
 }
+
+@import"footer";

@@ -34,7 +34,7 @@
     <h2>About us</h2>
     <div class="misuzu">
         <div class="profile-img">
-        <img src="" alt="">
+        <img src="https://placehold.jp/250x325.png" alt="">
         </div>
         <div>
         <h3>Misuzu Tomori</h3>
@@ -47,7 +47,7 @@
 
     <div class="emily">
     <div class="profile-img">
-        <img src="" alt="">
+        <img src="https://placehold.jp/250x325.png" alt="">
         </div>
         <div>
         <h3>Emily Matstumoto</h3>
