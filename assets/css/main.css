@@ -27,9 +27,31 @@ body {
   text-align: center;
   width: 30%;
   padding: 8%;
+  font-family: "Roboto", sans-serif;
 }
 
 #light-night .light img, #light-night .night img {
   padding-bottom: 3%;
+}
+
+#about h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 250%;
+  text-align: center;
+}
+
+#about .missu, #about .emily {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8%;
+}
+
+#about .missu .myself, #about .emily .myself {
+  width: 30vw;
+  padding: 6%;
 }
 /*# sourceMappingURL=main.css.map */

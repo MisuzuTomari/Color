@@ -24,8 +24,26 @@ body{
         text-align: center;
         width: 30%;
         padding: 8%;
+        font-family: $mainfont;
         img{
             padding-bottom: 3%;
+        }
+    }
+}
+
+#about{
+    h2{
+        font-family: $mainfont;
+        font-size: 250%;
+        text-align: center;
+    }
+    .missu, .emily{
+        display: flex;
+        justify-content: center;
+        padding: 8%;
+        .myself{
+            width: 30vw;
+            padding: 6%;
         }
     }
 }
