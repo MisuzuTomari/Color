@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+$mainfont: 'Roboto', sans-serif;
+// $maincolor: ;
+// $subcolor: ;
+
+#subscribe{
+    font-family: $mainfont;
+    text-align: center;
+    margin: 10px;
+    div{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        padding: 10px;
+
+        
+    }
+
+}

@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#subscribe {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin: 10px;
+}
+
+#subscribe div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+  padding: 10px;
+}
+/*# sourceMappingURL=main.css.map */
