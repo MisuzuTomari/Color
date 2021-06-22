@@ -16,20 +16,14 @@ body{
     background-color: $maincolor;
 }
 
-
-#subscribe{
-    font-family: $mainfont;
-    text-align: center;
-    margin: 10px;
-    div{
-        display: flex;
-        justify-content: center;
-        height: 30px;
-        padding: 10px;
-
-        
-    }
-    @import"sub";
+#light-night{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+
+
 
 @import"footer";
