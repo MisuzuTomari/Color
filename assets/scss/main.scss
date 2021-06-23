@@ -39,11 +39,12 @@ body{
         font-size: 250%;
         text-align: center;
         color: rgb(133, 127, 127);
+        padding: 8%;
     }
     .missu, .emily{
         display: flex;
         justify-content: center;
-        padding: 8%;
+        padding: 0% 8% 8% 8%;
         .myself{
             width: 30vw;
             padding: 6%;
@@ -52,5 +53,5 @@ body{
 }
 
 
-
+@import"sub";
 @import"footer";
