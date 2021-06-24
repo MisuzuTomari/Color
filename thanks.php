@@ -32,12 +32,12 @@
 
 <div class="thanks">
 <hr color="#a1785c" width="80%" size="1">
-    <h1>お問い合わせありがとうございました！</h1>
+    <h1>Thank you for contact us!</h1>
     <div>
-        <h3>お問い合わせ詳細内容</h3>
-        <p>ニックネーム：<?=$nickname?></p>
-        <p>メールアドレス：<?=$email?></p>
-        <p>お問い合わせ内容：<?=$content?></p>
+        <h3>Message details</h3>
+        <p>Name：<?=$nickname?></p>
+        <p>Mail address：<?=$email?></p>
+        <p>Message：<?=$content?></p>
     </div>
 </div>   
 <?php include('footer.php'); ?>
