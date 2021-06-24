@@ -2,7 +2,7 @@
 <?php include('mainvisual.php'); ?>
 
     <section id="catchphrase">
-        <h2>Want to design a website<br>that makes awesome?</h2>
+        <h2>Want to design a website<br>that makes awesomeness?</h2>
         <hr color="#a1785c" width="60%" size="1">
         <p>We have great ideas of color to help you DIY a website.</p>
         <a href="#" class="btn bgskew"><span>MORE</span></a>
