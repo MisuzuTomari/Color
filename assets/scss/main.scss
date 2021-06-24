@@ -18,6 +18,52 @@ body{
     background-color: $maincolor;
 }
 
+#fivecolor{
+    height: 50vh;
+    .line{
+        display: flex;
+        padding: 3%;
+        justify-content: center;
+    }
+        .container {
+            height:150px;
+            width:300px;
+            &.color1:after{
+                background-color:#3a291e;
+             }
+             &.color2:after{
+                background-color:#704f3a;  
+             }
+             &.color3:after{
+                background-color:#a67556;  
+             }
+             &.color4:after{
+                background-color:#c2a18b;  
+             }
+             &.color5:after{
+                background-color:#deccc1;  
+             }
+             &:after {
+                display:block;
+                content:"";
+                position:relative;
+                top:25%;
+                left:33%;
+                height:100px;
+                width:100px;
+                border-radius:100%;
+             }
+        }
+       
+        
+         
+
+    }
+    
+    
+
+
+
 #light-night{
     display: flex;
     justify-content: center;

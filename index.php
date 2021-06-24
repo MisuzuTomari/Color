@@ -1,16 +1,17 @@
 <?php include('header.php'); ?>
 <?php include('mainvisual.php'); ?>
 
-
-<main>
-    <section id="maincvisual">
-
-    </section>
     <section id="fivecolor">
-
+        <div class="line">
+            <div class="container color1"></div>
+            <div class="container color2"></div>
+            <div class="container color3"></div>
+        </div>
+        <div class="line">
+            <div class="container color4"></div>
+            <div class="container color5"></div>
+        </div>
     </section>
-
-
 
     <section id="light-night">
         <div class="light">
