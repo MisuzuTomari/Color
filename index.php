@@ -1,6 +1,13 @@
 <?php include('header.php'); ?>
 <?php include('mainvisual.php'); ?>
 
+    <section id="catchphrase">
+        <h2>Want to design a website<br>that makes awesomeness?</h2>
+        <hr color="#a1785c" width="60%" size="1">
+        <p>We have great ideas of color to help you DIY a website.</p>
+        <a href="#" class="btn bgskew"><span>MORE</span></a>
+    </section>
+
     <section id="fivecolor">
         <h2>5 type of BROWNs</h2>
         <div class="line">
@@ -70,7 +77,7 @@
                 <img src="" alt=""><a href=""></a></img>
             </div>
         </div>
+        <hr color="#a1785c" width="80%" size="1">
     </section>
-    <hr color="#a1785c" width="80%" size="1">
 <?php include('subscribe.php'); ?>
 <?php include('footer.php'); ?>

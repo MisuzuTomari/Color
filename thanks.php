@@ -27,15 +27,9 @@
     // ここまでは覚える
 ?>
 
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>送信完了</title>
-</head>
-<body>
+<?php include('header.php'); ?>
+<?php include('mainvisual.php'); ?>
+
     <h1>お問い合わせありがとうございました！</h1>
     <div>
         <h3>お問い合わせ詳細内容</h3>
@@ -44,5 +38,4 @@
         <p>お問い合わせ内容：<?=$content?></p>
     </div>
     
-</body>
-</html>
+<?php include('footer.php'); ?>
