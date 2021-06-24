@@ -35,7 +35,7 @@
         <input type="hidden" name="nickname" value="<?=$nickname?>">
         <input type="hidden" name="email" value="<?=$email?>">
         <input type="hidden" name="content" value="<?=$content?>">
-        <input type="button" class="btn bgcenterout" value="戻る" onclick="history.back()">
+        <input type="button" value="back" onclick="history.back()">
         <?php if($nickname != '' && $email != '' && $content != ""): ?>
             <input type="submit" value="OK">
         <?php endif; ?>
