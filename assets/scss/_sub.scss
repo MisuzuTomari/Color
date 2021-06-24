@@ -23,8 +23,6 @@
     }
 }
 
-
-
 /*== ボタン共通設定 */
 .btn{
     /*アニメーションの起点とするためrelativeを指定*/
@@ -74,4 +72,38 @@
 /*hoverした際の形状*/
 .bgcenterout:hover:before{
 	transform:scale(1, 1);
+}
+
+.check{
+	background-color: #e9ded6;
+	text-align: center;
+	margin: auto;
+	height: 80vh;
+	width: 80vw;
+	font-family: $mainfont;
+	h1{
+		padding: 8%;
+		font-size: 300%;
+		color: $titlecolor;
+	}
+	p{
+		font-size: 200%;
+	}
+}
+
+.thanks{
+	background-color: #e9ded6;
+	text-align: center;
+	margin: auto;
+	height: 80vh;
+	width: 80vw;
+	font-family: $mainfont;
+	h1{
+		padding: 8%;
+		font-size: 300%;
+		color: $titlecolor;
+	}
+	p{
+		font-size: 200%;
+	}
 }
