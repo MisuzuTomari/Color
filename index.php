@@ -21,12 +21,12 @@
     <hr color="#a1785c" width="80%" size="1">
     <section id="light-night">
         <div class="light">
-            <img src="./assets/img/light1.png" alt=""><a href=""></a></img>
+            <a href="./lightpage.php"><img src="./assets/img/light1.png" alt=""></a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         </div>
 
         <div class="night">
-            <img src="./assets/img/dark.png" alt=""><a href=""></a></img>
+            <a href="./darkpage.php"><img src="./assets/img/dark.png" alt=""></a>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure . </p>
         </div>
     </section>
