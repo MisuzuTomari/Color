@@ -38,8 +38,8 @@
             <a href="./darkpage.php"><img src="./assets/img/dark.png" alt=""></a>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure . </p>
         </div>
-        <hr color="#a1785c" width="80%" size="1">
     </section>
+    <hr color="#a1785c" width="80%" size="1">
     <section id="about">
     <h2>About us</h2>
         <div class="missu">
