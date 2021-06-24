@@ -12,12 +12,13 @@
         -webkit-text-stroke: 2px $titlecolor;
         font-size: 550%;
     }        
-    .brown{
+   .brown{
         color: rgb(80, 53, 27);
         font-size: 30px;
     }
     .name{
         color: rgb(142, 107, 73);
         font-size: 18px;
-    }
+        padding-top: 10px;
+    } 
 }

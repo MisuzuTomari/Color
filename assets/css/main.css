@@ -42,6 +42,29 @@ header {
   text-decoration: none;
 }
 
+.header-right a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #333;
+  -webkit-transform: scale(0, 1);
+          transform: scale(0, 1);
+  -webkit-transform-origin: center top;
+          transform-origin: center top;
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+
+.header-right a:hover::after {
+  -webkit-transform: scale(1, 1);
+          transform: scale(1, 1);
+}
+
 #maincvisual {
   height: 65vh;
   text-align: center;
@@ -75,6 +98,7 @@ header {
 #maincvisual .name {
   color: #8e6b49;
   font-size: 18px;
+  padding-top: 10px;
 }
 
 body {
@@ -239,6 +263,18 @@ body {
   height: 100px;
   width: 100px;
   border-radius: 100%;
+}
+
+.dark {
+  text-align: center;
+}
+
+.dark1 {
+  text-align: center;
+}
+
+.dark2 {
+  text-align: center;
 }
 
 #light-night {
