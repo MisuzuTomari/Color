@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
 }
+hr{
+    margin: auto;
+}
 
 $mainfont: 'Roboto', sans-serif;
 $maincolor: #F6F3EE;
 $titlecolor: rgb(133, 127, 127);
+
 
 
 
@@ -20,6 +24,7 @@ body{
 
 #fivecolor{
     height: 50vh;
+    padding-bottom: 12%;
     .line{
         display: flex;
         padding: 3%;

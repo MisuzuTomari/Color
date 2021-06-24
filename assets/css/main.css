@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+hr {
+  margin: auto;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,6 +82,7 @@ body {
 
 #fivecolor {
   height: 50vh;
+  padding-bottom: 12%;
 }
 
 #fivecolor .line {
