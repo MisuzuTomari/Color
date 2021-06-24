@@ -13,15 +13,15 @@
         <div class="line">
             <div class="color_wrapper">  
                <a href=""><div class= "container color1"></div></a> 
-                <div class="dark">#704f3a</div>
+                <div class="dark">dark choco</div>
             </div>
             <div class="color_wrapper1"> 
                 <a href=""><div class="container color2"></div></a>
-                <div class="dark">#704f3a</div>
+                <div class="dark">cacao</div>
             </div>
             <div class="color_wrapper2">  
                 <a href=""><div class="container color3"></div></a>
-                <div class="dark">#704f3a</div>
+                <div class="dark">milky way</div>
             </div>
             <!-- <div class="line text"> -->
            
@@ -29,11 +29,11 @@
         <div class="line">
             <div class="color_wrapper3">
                 <a href=""><div class="container color4"></div></a>
-                <div class="dark">#704f3a</div>
+                <div class="dark">moca</div>
             </div>
             <div class="color_wrapper4">
                 <a href=""><div class="container color5"></div></a>
-                <div class="dark">#704f3a</div>
+                <div class="dark">sand</div>
             </div>
         </div>
     </section>
