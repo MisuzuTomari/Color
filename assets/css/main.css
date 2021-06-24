@@ -43,9 +43,8 @@ header {
 }
 
 #maincvisual {
-  height: 30vh;
+  height: 65vh;
   text-align: center;
-  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,13 +81,99 @@ body {
   background-color: #F6F3EE;
 }
 
+#catchphrase {
+  height: 96vh;
+  background-color: #e3c099;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  /*== ボタン共通設定 */
+  /*ボタン内spanの形状*/
+  /*== 背景が流れる（斜め） */
+  /*hoverした時のアニメーション*/
+}
+
+#catchphrase p {
+  padding: 3%;
+  font-size: 200%;
+  padding: 4% 4% 6% 4%;
+}
+
+#catchphrase h2 {
+  color: transparent;
+  -webkit-text-stroke: 1px #857f7f;
+  font-size: 400%;
+  padding: 8% 3% 8% 3%;
+}
+
+#catchphrase .btn {
+  /*アニメーションの起点とするためrelativeを指定*/
+  position: relative;
+  overflow: hidden;
+  /*ボタンの形状*/
+  text-decoration: none;
+  display: inline-block;
+  border: 1px solid #555;
+  /* ボーダーの色と太さ */
+  padding: 10px 30px;
+  text-align: center;
+  outline: none;
+  /*アニメーションの指定*/
+  -webkit-transition: ease .3s;
+  transition: ease .3s;
+}
+
+#catchphrase .btn span {
+  position: relative;
+  z-index: 3;
+  /*z-indexの数値をあげて文字を背景よりも手前に表示*/
+  color: #333;
+}
+
+#catchphrase .btn:hover span {
+  color: #fff;
+}
+
+#catchphrase .bgskew::before {
+  content: '';
+  /*絶対配置で位置を指定*/
+  position: absolute;
+  top: 0;
+  left: -130%;
+  /*色や形状*/
+  background: #333;
+  width: 120%;
+  height: 100%;
+  -webkit-transform: skewX(-25deg);
+          transform: skewX(-25deg);
+}
+
+#catchphrase .bgskew:hover::before {
+  -webkit-animation: skewanime .5s forwards;
+          animation: skewanime .5s forwards;
+  /*アニメーションの名前と速度を定義*/
+}
+
+@-webkit-keyframes skewanime {
+  100% {
+    left: -10%;
+    /*画面の見えていない左から右へ移動する終了地点*/
+  }
+}
+
+@keyframes skewanime {
+  100% {
+    left: -10%;
+    /*画面の見えていない左から右へ移動する終了地点*/
+  }
+}
+
 #fivecolor {
   height: 100vh;
   padding-bottom: 12%;
 }
 
 #fivecolor h2 {
-  padding: 3%;
+  padding: 10% 3% 3% 3%;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 250%;
@@ -112,6 +197,17 @@ body {
 
 #fivecolor .container.color1:after {
   background-color: #3a291e;
+}
+
+#fivecolor .container.color1:after .container, #fivecolor .container.color1:after span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 80px;
+  text-align: center;
 }
 
 #fivecolor .container.color2:after {
@@ -197,6 +293,7 @@ body {
 #subscribe h1 {
   font-size: 350%;
   color: #857f7f;
+  padding: 8% 3% 3% 3%;
 }
 
 #subscribe p {
