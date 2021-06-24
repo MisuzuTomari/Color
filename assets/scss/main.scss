@@ -30,6 +30,17 @@ body{
             width:300px;
             &.color1:after{
                 background-color:#3a291e;
+                
+                .container, span{
+                position: absolute;
+                display: inline-block;
+                left: 0;
+                top: 50%;
+                -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                width :80px;
+                text-align:center;
+            }
              }
              &.color2:after{
                 background-color:#704f3a;  
