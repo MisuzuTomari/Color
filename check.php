@@ -25,7 +25,8 @@
 
 <?php include('header.php'); ?>
 <?php include('mainvisual.php'); ?>
-
+<hr color="#a1785c" width="80%" size="1">
+<div class="check">
     <h1>入力内容確認</h1>
     <p><?php echo $nickname_result; ?></p>
     <p><?php echo $email_result; ?></p>
@@ -39,5 +40,5 @@
             <input type="submit" value="OK">
         <?php endif; ?>
     </form>
-
+</div>
     <?php include('footer.php'); ?>

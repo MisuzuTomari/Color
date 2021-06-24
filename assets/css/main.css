@@ -414,6 +414,44 @@ body {
           transform: scale(1, 1);
 }
 
+.check {
+  background-color: #e9ded6;
+  text-align: center;
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
+  font-family: "Roboto", sans-serif;
+}
+
+.check h1 {
+  padding: 8%;
+  font-size: 300%;
+  color: #857f7f;
+}
+
+.check p {
+  font-size: 200%;
+}
+
+.thanks {
+  background-color: #e9ded6;
+  text-align: center;
+  margin: auto;
+  height: 80vh;
+  width: 80vw;
+  font-family: "Roboto", sans-serif;
+}
+
+.thanks h1 {
+  padding: 8%;
+  font-size: 300%;
+  color: #857f7f;
+}
+
+.thanks p {
+  font-size: 200%;
+}
+
 footer {
   height: 20vh;
   border: aqua 1px;
