@@ -52,7 +52,7 @@ header {
   content: '';
   width: 100%;
   height: 2px;
-  background: #333;
+  background: #4d3318;
   -webkit-transform: scale(0, 1);
           transform: scale(0, 1);
   -webkit-transform-origin: center top;
