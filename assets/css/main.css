@@ -448,6 +448,11 @@ body {
   color: #857f7f;
 }
 
+.thanks h3 {
+  padding: 2%;
+  font-size: 200%;
+}
+
 .thanks p {
   font-size: 200%;
 }
