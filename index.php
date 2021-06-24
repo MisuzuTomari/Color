@@ -2,10 +2,16 @@
 <?php include('mainvisual.php'); ?>
 
     <section id="fivecolor">
+        <h2>5 type of BROWNs</h2>
         <div class="line">
             <div class="container color1"></div>
             <div class="container color2"></div>
             <div class="container color3"></div>
+        </div>
+        <div class="line text">
+            <p>dark</p>
+            <p>cholate</p>
+            <p>light</p>
         </div>
         <div class="line">
             <div class="container color4"></div>
