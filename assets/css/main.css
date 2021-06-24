@@ -38,6 +38,9 @@ header {
 }
 
 .header-right a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
   color: #ab8462;
   text-decoration: none;
 }
