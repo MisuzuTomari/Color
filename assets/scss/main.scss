@@ -5,6 +5,7 @@
 
 $mainfont: 'Roboto', sans-serif;
 $maincolor: #F6F3EE;
+$titlecolor: rgb(133, 127, 127);
 
 
 @import"header";
@@ -38,7 +39,7 @@ body{
         font-family: $mainfont;
         font-size: 250%;
         text-align: center;
-        color: rgb(133, 127, 127);
+        color: $titlecolor;
         padding: 8%;
     }
     .missu, .emily{
