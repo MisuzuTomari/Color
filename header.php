@@ -18,7 +18,7 @@
         <ul>
             <li><a href="#color">Color</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#sub">sub</a></li>
+            <li><a href="#subscribe">sub</a></li>
         </ul>
     </div>
 </header>
