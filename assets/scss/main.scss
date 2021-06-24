@@ -2,24 +2,29 @@
     margin: 0;
     padding: 0;
 }
-
+hr{
+    margin: auto;
+}
 $mainfont: 'Roboto', sans-serif;
 $maincolor: #F6F3EE;
 $titlecolor: rgb(133, 127, 127);
-
-
-
 @import"header";
 @import"mainvisual";
-
-
 
 body{
     background-color: $maincolor;
 }
 
 #fivecolor{
-    height: 50vh;
+    height: 100vh;
+    padding-bottom: 12%;
+    h2{
+        padding: 3%;
+        text-align: center;
+        font-family: $mainfont;
+        font-size: 250%;
+        color: $titlecolor;
+    }
     .line{
         display: flex;
         padding: 3%;
