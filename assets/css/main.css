@@ -190,6 +190,10 @@ body {
           justify-content: center;
 }
 
+#fivecolor .line text {
+  letter-spacing: 1em;
+}
+
 #fivecolor .container {
   height: 150px;
   width: 300px;
@@ -373,7 +377,16 @@ body {
 
 footer {
   height: 20vh;
-  text-align: center;
   border: aqua 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roboto", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

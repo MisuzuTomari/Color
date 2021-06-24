@@ -1,5 +1,8 @@
 footer{
     height: 20vh;
-    text-align: center;
     border: aqua 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $mainfont;
 }
