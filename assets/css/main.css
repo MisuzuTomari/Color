@@ -4,8 +4,18 @@
   padding: 0;
 }
 
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header-left img {
   height: 80px;
+}
+
+.header-right {
+  margin-left: auto;
 }
 
 .header-right ul {
@@ -29,22 +39,27 @@
 }
 
 #maincvisual {
+  height: 30vh;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-h1 {
-  color: #504d4a;
-  font-size: 50px;
+#maincvisual h1 {
+  color: transparent;
+  -webkit-text-stroke: 2px #857f7f;
+  font-size: 550%;
 }
 
-.brown {
+#maincvisual .brown {
   color: #50351b;
   font-size: 30px;
 }
 
-.name {
+#maincvisual .name {
   color: #8e6b49;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 body {
@@ -99,9 +114,19 @@ body {
 }
 
 #subscribe {
+  height: 60vh;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  margin: 10px;
+}
+
+#subscribe h1 {
+  font-size: 350%;
+  color: #857f7f;
+}
+
+#subscribe p {
+  padding: 2%;
+  font-size: 130%;
 }
 
 #subscribe div {
@@ -111,8 +136,8 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 30px;
-  padding: 10px;
+  height: 6vh;
+  padding: 2%;
 }
 
 /*== ボタン共通設定 */
@@ -129,8 +154,8 @@ body {
   text-align: center;
   outline: none;
   /*アニメーションの指定*/
-  -webkit-transition: ease .2s;
-  transition: ease .2s;
+  -webkit-transition: ease .5s;
+  transition: ease .5s;
 }
 
 /*ボタン内spanの形状*/
@@ -172,5 +197,11 @@ body {
 .bgcenterout:hover:before {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
+}
+
+footer {
+  height: 20vh;
+  text-align: center;
+  border: aqua 1px;
 }
 /*# sourceMappingURL=main.css.map */

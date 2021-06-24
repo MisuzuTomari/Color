@@ -1,13 +1,24 @@
 
 #subscribe{
+	height: 60vh;
     font-family: $mainfont;
     text-align: center;
-    margin: 10px;
+	h1{
+		font-size: 350%;
+		color: $titlecolor;
+	}
+	p{
+		padding: 2%;
+		font-size: 130%;
+	}
     div{
         display: flex;
         justify-content: center;
-        height: 30px;
-        padding: 10px;
+        height: 6vh;
+        padding: 2%;
+		textarea{
+			
+		}
     }
 }
 
@@ -26,7 +37,7 @@
 	text-align: center;
     outline: none;
     /*アニメーションの指定*/   
-    transition: ease .2s;
+    transition: ease .5s;
 }
 
 /*ボタン内spanの形状*/

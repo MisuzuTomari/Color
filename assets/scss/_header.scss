@@ -1,13 +1,17 @@
+
+header{
+    display: flex;
+}
 .header-left img{
     height: 80px;
 }
 .header-right{
+    margin-left: auto;
     ul{
         display: flex;
         justify-content: flex-end;
         list-style: none;
         padding-right: 50px;
-        
     }
     li{
         margin: 20px;
