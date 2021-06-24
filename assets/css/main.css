@@ -39,11 +39,21 @@ header {
 }
 
 #maincvisual {
-  height: 30vh;
-  text-align: center;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-bottom: 10%;
 }
 
 #maincvisual h1 {
@@ -64,6 +74,56 @@ header {
 
 body {
   background-color: #F6F3EE;
+}
+
+#fivecolor {
+  height: 50vh;
+}
+
+#fivecolor .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#fivecolor .container {
+  height: 150px;
+  width: 300px;
+}
+
+#fivecolor .container.color1:after {
+  background-color: #3a291e;
+}
+
+#fivecolor .container.color2:after {
+  background-color: #704f3a;
+}
+
+#fivecolor .container.color3:after {
+  background-color: #a67556;
+}
+
+#fivecolor .container.color4:after {
+  background-color: #c2a18b;
+}
+
+#fivecolor .container.color5:after {
+  background-color: #deccc1;
+}
+
+#fivecolor .container:after {
+  display: block;
+  content: "";
+  position: relative;
+  top: 25%;
+  left: 33%;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
 }
 
 #light-night {
