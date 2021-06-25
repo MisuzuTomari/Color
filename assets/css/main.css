@@ -111,6 +111,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 10px;
 }
 
 .box p {
@@ -163,43 +164,43 @@ header {
 .box7 {
   width: 300px;
   height: 70px;
-  background-color: #f0d9b0;
+  background-color: #a06f49;
 }
 
 .box8 {
   width: 300px;
   height: 70px;
-  background-color: #eec987;
+  background-color: #9b7147;
 }
 
 .box9 {
   width: 300px;
   height: 70px;
-  background-color: #dcb375;
+  background-color: #91683f;
 }
 
 .box10 {
   width: 300px;
   height: 70px;
-  background-color: #916644;
+  background-color: #8a633e;
 }
 
 .box11 {
   width: 300px;
   height: 70px;
-  background-color: #cea15d;
+  background-color: #7b5634;
 }
 
 .box12 {
   width: 300px;
   height: 70px;
-  background-color: #cd9748;
+  background-color: #63462b;
 }
 
 .box13 {
   width: 300px;
   height: 70px;
-  background-color: #cd8f34;
+  background-color: #483522;
 }
 
 body {
