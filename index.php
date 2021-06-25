@@ -12,7 +12,7 @@
         <h2>5 type of BROWNs</h2>
         <div class="line">
             <div class="color_wrapper">  
-               <a href=""><div class= "container color1"></div></a> 
+               <a href="./color1.php"><div class= "container color1"></div></a> 
                 <div class="dark">dark choco</div>
             </div>
             <div class="color_wrapper1"> 
