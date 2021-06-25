@@ -54,11 +54,11 @@
     <h2>About us</h2>
         <div class="missu">
             <div class="profile-img">
-                <img src="https://placehold.jp/250x325.png" alt="">
+                <img src="./assets/img/misuzu.JPG" alt="">
             </div>
             <div class="myself">
                 <h3>Misuzu Tomori</h3>
-                <p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem</p>
+                <p>1995年生まれ。沖縄生まれ、沖縄育ち。小さい子から海外に憧れ、20歳でオーストラリアに飛び立つ。日本と海外の働き方や、生活仕方、考え方の違いに驚き、もっと力を抜いて生きていこうと考える。23歳でミスコンテストに挑戦。日本大会の切符を手に入れ、県外の若者と「自分磨き」を始める。沖縄戻り、何か自分で手に職をつけたいと思い、ネクシードに出会う。今回のこのHP作成は、学校入学当初から作りたいと思っていた「カラーのアプリ」を参考に作成。もっとカラー別に作成し、公開していきたいと考える。</p>
             </div>
             <div>
                 <img src="" alt=""><a href=""></a></img>
@@ -68,10 +68,10 @@
         <div class="emily">
             <div class="myself">
                 <h3>Emily Matstumoto</h3>
-                <p>ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse,</p>
+                <p>1995年生まれ。7月7日ラッキーセブンが並ぶ。青森県生まれ、15歳の時に仙台に進出、その勢いは止まらず、外国を回る。2０歳の頃シンガポールに働きに出るが語学力に圧倒され、語学を学びにフィリピン・セブ島へいく。セブ島とはネクシードもある島だ。そしてオーストラリアへ行き、本格的なヨガの内面的美しさに出会う。ヨガをもっと学ぶため今度はインドへヨガ修行へ出る。世界共通のヨガライセンス取得。日本に帰り次の目的を探しているところにInstagramにてネクシードに出会う。</p>
             </div>
             <div class="profile-img">
-                <img src="https://placehold.jp/250x325.png" alt="">
+                <img src="./assets/img/emily1.jpeg" alt="">
             </div>
             <div>
                 <img src="" alt=""><a href=""></a></img>
