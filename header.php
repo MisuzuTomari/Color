@@ -16,7 +16,7 @@
     </div>
     <div class="header-right">
         <ul>
-            <li><a href="#color">Color</a></li>
+            <li><a href="#fivecolor">Color</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#subscribe">sub</a></li>
         </ul>
