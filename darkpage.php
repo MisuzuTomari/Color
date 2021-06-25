@@ -4,37 +4,37 @@
 <section>
     <div class="box">
         <div class="box7"></div>
-        <p>#f0d9b0</p>
+        <p>#a06f49</p>
     </div>
 
     <div class="box">
         <div class="box8"></div>
-        <p>#eec987</p>
+        <p>#9b7147</p>
     </div> 
 
     <div class="box">
         <div class="box9"></div>
-        <p>#dcb375</p>
+        <p>#91683f</p>
     </div>
     
     <div class="box">
         <div class="box10"></div>
-        <p>#d7ab68</p>
+        <p>#8a633e</p>
     </div> 
 
     <div class="box">
         <div class="box11"></div>
-        <p>#cea15d</p>
+        <p>#7b5634</p>
     </div>
 
     <div class="box">
         <div class="box12"></div>
-        <p>#cd9748</p>
+        <p>#63462b</p>
     </div>
 
     <div class="box">
         <div class="box13"></div>
-        <p>#cd8f34</p>
+        <p>#483522</p>
     </div>   
     
 </section>
